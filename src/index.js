@@ -1,7 +1,7 @@
 module.exports = function reverse (n) {
-    let string = n.toString();
-    let array = string.split('');
-    let reverse = array.reverse();
-    let newString = reverse.join('');
-    return parseFloat(newString);
-  }
+  let str = n.toString();
+  let arr = str.split('');
+  let rev = arr.reverse();
+  let newStr = rev.join('');
+  return parseFloat(newStr);
+}
